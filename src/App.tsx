@@ -8,8 +8,7 @@ function App() {
 
 
   function add(numbers: string):number{
-
-      const num = str.match(/-?\d+/g)
+      const num = numbers.match(/-?\d+/g)
       const negatives : any = []; // Array to collect negative numbers
       if(num == null){
           return 0
